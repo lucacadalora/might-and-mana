@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "M PLUS 2";
+  src: url("/fonts/mplus2-latin.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url("/fonts/silkscreen.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+html, body { margin: 0; height: 100%; background: #0d0a08; overscroll-behavior: none; }

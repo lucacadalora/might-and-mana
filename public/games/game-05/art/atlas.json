@@ -1,0 +1,5528 @@
+{
+ "version": 1,
+ "dev": false,
+ "note": "Merged by art-src/game-05/build_atlas.py: the render lane's dev atlas overlaid key by key with art-src/game-05/atlas-parts/*.json. Image paths are relative to this file. Keys marked \"dev\": true are still placeholders. Do not edit by hand; re-run the script.",
+ "merged": {
+  "at": "2026-09-25T05:38:19Z",
+  "parts": {
+   "chars": {
+    "sheets": 22,
+    "ground": 0,
+    "icons": 0,
+    "portraits": 22
+   },
+   "creatures": {
+    "sheets": 28,
+    "ground": 0,
+    "icons": 64,
+    "portraits": 0
+   },
+   "env": {
+    "sheets": 61,
+    "ground": 23,
+    "icons": 0,
+    "portraits": 0
+   }
+  },
+  "devKeys": 0
+ },
+ "sheets": {
+  "env.ripple": {
+   "image": "env/props/env.ripple.3955c165.png",
+   "w": 12,
+   "h": 5,
+   "anchor": {
+    "x": 6,
+    "y": 2
+   },
+   "anims": {
+    "ripple": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 6,
+     "loop": false
+    },
+    "loop": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 6,
+     "loop": true
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.coin": {
+   "image": "creatures/fx/fx.coin.24fbe734.png",
+   "w": 12,
+   "h": 14,
+   "anchor": {
+    "x": 6,
+    "y": 12
+   },
+   "anims": {
+    "spin": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 10,
+     "loop": true
+    },
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.dust": {
+   "image": "creatures/fx/fx.dust.5892decf.png",
+   "w": 18,
+   "h": 20,
+   "anchor": {
+    "x": 9,
+    "y": 18
+   },
+   "anims": {
+    "puff": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 12,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.ember": {
+   "image": "creatures/fx/fx.ember.51011cbd.png",
+   "w": 36,
+   "h": 38,
+   "anchor": {
+    "x": 18,
+    "y": 19
+   },
+   "anims": {
+    "fly": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 14,
+     "loop": true
+    },
+    "burst": {
+     "frames": [
+      4,
+      5,
+      6
+     ],
+     "fps": 14,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.flame": {
+   "image": "creatures/fx/fx.flame.96233f05.png",
+   "w": 30,
+   "h": 44,
+   "anchor": {
+    "x": 15,
+    "y": 42
+   },
+   "anims": {
+    "burn": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 10,
+     "loop": true
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.frost": {
+   "image": "creatures/fx/fx.frost.4f743f43.png",
+   "w": 36,
+   "h": 36,
+   "anchor": {
+    "x": 18,
+    "y": 18
+   },
+   "anims": {
+    "shard": {
+     "frames": [
+      0,
+      1
+     ],
+     "fps": 8,
+     "loop": true
+    },
+    "burst": {
+     "frames": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 18,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.heal": {
+   "image": "creatures/fx/fx.heal.28e4d317.png",
+   "w": 12,
+   "h": 12,
+   "anchor": {
+    "x": 6,
+    "y": 6
+   },
+   "anims": {
+    "rise": {
+     "frames": [
+      0,
+      1,
+      2
+     ],
+     "fps": 6,
+     "loop": true
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.hit": {
+   "image": "creatures/fx/fx.hit.1ffc9122.png",
+   "w": 38,
+   "h": 38,
+   "anchor": {
+    "x": 19,
+    "y": 19
+   },
+   "anims": {
+    "burst": {
+     "frames": [
+      0,
+      1,
+      2
+     ],
+     "fps": 30,
+     "loop": false
+    },
+    "crit": {
+     "frames": [
+      3,
+      4,
+      5
+     ],
+     "fps": 24,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.leaves": {
+   "image": "creatures/fx/fx.leaves.2cf02058.png",
+   "w": 26,
+   "h": 26,
+   "anchor": {
+    "x": 13,
+    "y": 13
+   },
+   "anims": {
+    "p": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "burst": {
+     "frames": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "fps": 14,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.levelUp": {
+   "image": "creatures/fx/fx.levelUp.6b148889.png",
+   "w": 52,
+   "h": 58,
+   "anchor": {
+    "x": 26,
+    "y": 32
+   },
+   "anims": {
+    "burst": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "fps": 10,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.poof": {
+   "image": "creatures/fx/fx.poof.1134bff3.png",
+   "w": 30,
+   "h": 32,
+   "anchor": {
+    "x": 15,
+    "y": 30
+   },
+   "anims": {
+    "poof": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 14,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.slash": {
+   "image": "creatures/fx/fx.slash.76e841d2.png",
+   "w": 46,
+   "h": 46,
+   "anchor": {
+    "x": 23,
+    "y": 23
+   },
+   "anims": {
+    "sweep": {
+     "frames": {
+      "down": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "left": [
+       8,
+       9,
+       10,
+       11
+      ],
+      "up": [
+       16,
+       17,
+       18,
+       19
+      ]
+     },
+     "fps": 26,
+     "loop": false
+    },
+    "sweepB": {
+     "frames": {
+      "down": [
+       4,
+       5,
+       6,
+       7
+      ],
+      "left": [
+       12,
+       13,
+       14,
+       15
+      ],
+      "up": [
+       20,
+       21,
+       22,
+       23
+      ]
+     },
+     "fps": 26,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.slashBig": {
+   "image": "creatures/fx/fx.slashBig.4609e391.png",
+   "w": 58,
+   "h": 58,
+   "anchor": {
+    "x": 29,
+    "y": 29
+   },
+   "anims": {
+    "sweep": {
+     "frames": {
+      "down": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "left": [
+       8,
+       9,
+       10,
+       11
+      ],
+      "up": [
+       16,
+       17,
+       18,
+       19
+      ]
+     },
+     "fps": 26,
+     "loop": false
+    },
+    "sweepB": {
+     "frames": {
+      "down": [
+       4,
+       5,
+       6,
+       7
+      ],
+      "left": [
+       12,
+       13,
+       14,
+       15
+      ],
+      "up": [
+       20,
+       21,
+       22,
+       23
+      ]
+     },
+     "fps": 26,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.sparkle": {
+   "image": "creatures/fx/fx.sparkle.cc0acc21.png",
+   "w": 12,
+   "h": 10,
+   "anchor": {
+    "x": 6,
+    "y": 5
+   },
+   "anims": {
+    "twinkle": {
+     "frames": [
+      0,
+      1,
+      2,
+      1,
+      0
+     ],
+     "fps": 14,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.spin": {
+   "image": "creatures/fx/fx.spin.c2302834.png",
+   "w": 84,
+   "h": 66,
+   "anchor": {
+    "x": 42,
+    "y": 33
+   },
+   "anims": {
+    "spin": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "fps": 28,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.spore": {
+   "image": "creatures/fx/fx.spore.c410e87a.png",
+   "w": 60,
+   "h": 44,
+   "anchor": {
+    "x": 30,
+    "y": 22
+   },
+   "anims": {
+    "cloud": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 5,
+     "loop": true
+    },
+    "burst": {
+     "frames": [
+      4,
+      5,
+      6
+     ],
+     "fps": 12,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.thorn": {
+   "image": "creatures/fx/fx.thorn.3d1e10b9.png",
+   "w": 28,
+   "h": 30,
+   "anchor": {
+    "x": 14,
+    "y": 15
+   },
+   "anims": {
+    "fly": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "fps": 0,
+     "loop": false,
+     "octants": true
+    },
+    "burst": {
+     "frames": [
+      8,
+      9,
+      10
+     ],
+     "fps": 14,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.thornLine": {
+   "image": "creatures/fx/fx.thornLine.c6c101b0.png",
+   "w": 34,
+   "h": 33,
+   "anchor": {
+    "x": 17,
+    "y": 31
+   },
+   "anims": {
+    "rise": {
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 16,
+     "loop": false
+    },
+    "hold": {
+     "frames": [
+      3
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "fx.web": {
+   "image": "creatures/fx/fx.web.0a4b7c70.png",
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 16
+   },
+   "anims": {
+    "fly": {
+     "frames": [
+      0,
+      1
+     ],
+     "fps": 8,
+     "loop": true
+    },
+    "splat": {
+     "frames": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "fps": 10,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "gate.iron": {
+   "image": "env/props/gate.iron.07ae33f3.png",
+   "w": 36,
+   "h": 44,
+   "anchor": {
+    "x": 18,
+    "y": 43
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    28,
+    6
+   ]
+  },
+  "gate.thorns": {
+   "image": "env/props/gate.thorns.62c67a2e.png",
+   "w": 32,
+   "h": 44,
+   "anchor": {
+    "x": 16,
+    "y": 42
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    30,
+    7
+   ]
+  },
+  "hero": {
+   "image": "chars/hero.0693bb1a.png",
+   "w": 72,
+   "h": 70,
+   "anchor": {
+    "x": 34,
+    "y": 63
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       21
+      ],
+      "up": [
+       41
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       21,
+       24
+      ],
+      "up": [
+       41,
+       44
+      ]
+     },
+     "fps": 1.6,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       22,
+       21,
+       23,
+       21
+      ],
+      "up": [
+       42,
+       41,
+       43,
+       41
+      ]
+     },
+     "fps": 10,
+     "loop": true
+    },
+    "attack1": {
+     "frames": {
+      "down": [
+       8,
+       9,
+       9,
+       9,
+       9,
+       0
+      ],
+      "left": [
+       29,
+       30,
+       30,
+       30,
+       30,
+       21
+      ],
+      "up": [
+       49,
+       50,
+       50,
+       50,
+       50,
+       41
+      ]
+     },
+     "fps": 20,
+     "loop": false
+    },
+    "attack2": {
+     "frames": {
+      "down": [
+       10,
+       11,
+       11,
+       11,
+       11,
+       0
+      ],
+      "left": [
+       31,
+       32,
+       32,
+       32,
+       32,
+       21
+      ],
+      "up": [
+       51,
+       52,
+       52,
+       52,
+       52,
+       41
+      ]
+     },
+     "fps": 20,
+     "loop": false
+    },
+    "attack3": {
+     "frames": {
+      "down": [
+       12,
+       13,
+       13,
+       13,
+       13,
+       0
+      ],
+      "left": [
+       33,
+       34,
+       34,
+       34,
+       34,
+       21
+      ],
+      "up": [
+       53,
+       54,
+       54,
+       54,
+       54,
+       41
+      ]
+     },
+     "fps": 20,
+     "loop": false
+    },
+    "attack4": {
+     "frames": {
+      "down": [
+       8,
+       14,
+       14,
+       14,
+       14,
+       14
+      ],
+      "left": [
+       29,
+       35,
+       35,
+       35,
+       35,
+       35
+      ],
+      "up": [
+       49,
+       55,
+       55,
+       55,
+       55,
+       55
+      ]
+     },
+     "fps": 20,
+     "loop": false
+    },
+    "cast": {
+     "frames": {
+      "down": [
+       5,
+       5,
+       6,
+       6,
+       6
+      ],
+      "left": [
+       26,
+       26,
+       27,
+       27,
+       27
+      ],
+      "up": [
+       46,
+       46,
+       47,
+       47,
+       47
+      ]
+     },
+     "fps": 20,
+     "loop": false
+    },
+    "dodge": {
+     "frames": {
+      "down": [
+       16,
+       17,
+       18
+      ],
+      "left": [
+       37,
+       38,
+       39
+      ],
+      "up": [
+       57,
+       58,
+       59
+      ]
+     },
+     "fps": 11,
+     "loop": false
+    },
+    "hurt": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       25
+      ],
+      "up": [
+       45
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "dead": {
+     "frames": {
+      "down": [
+       4,
+       7,
+       19
+      ],
+      "left": [
+       25,
+       28,
+       40
+      ],
+      "up": [
+       45,
+       48,
+       60
+      ]
+     },
+     "fps": 6,
+     "loop": false
+    },
+    "raise": {
+     "frames": {
+      "down": [
+       20
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "spin": {
+     "frames": {
+      "down": [
+       15,
+       36,
+       56,
+       61,
+       15,
+       36,
+       56,
+       61
+      ],
+      "left": [
+       36,
+       56,
+       61,
+       15,
+       36,
+       56,
+       61,
+       15
+      ],
+      "up": [
+       56,
+       61,
+       15,
+       36,
+       56,
+       61,
+       15,
+       36
+      ],
+      "right": [
+       61,
+       15,
+       36,
+       56,
+       61,
+       15,
+       36,
+       56
+      ]
+     },
+     "fps": 20,
+     "loop": false
+    }
+   },
+   "shadow": [
+    20,
+    6
+   ]
+  },
+  "mon.barrowGuard": {
+   "image": "creatures/mon/mon.barrowGuard.b66b58da.png",
+   "w": 68,
+   "h": 66,
+   "anchor": {
+    "x": 34,
+    "y": 65
+   },
+   "anims": {
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       21
+      ],
+      "left": [
+       4,
+       22
+      ],
+      "up": [
+       8,
+       23
+      ]
+     },
+     "fps": 2,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       5,
+       4,
+       6,
+       4
+      ],
+      "up": [
+       9,
+       8,
+       10,
+       8
+      ]
+     },
+     "fps": 6,
+     "loop": true
+    },
+    "windup": {
+     "frames": {
+      "down": [
+       3
+      ],
+      "left": [
+       7
+      ],
+      "up": [
+       11
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "attack": {
+     "frames": {
+      "down": [
+       12,
+       13
+      ],
+      "left": [
+       16,
+       17
+      ],
+      "up": [
+       19,
+       8
+      ]
+     },
+     "fps": 8,
+     "loop": false
+    },
+    "hurt": {
+     "frames": {
+      "down": [
+       14
+      ],
+      "left": [
+       18
+      ],
+      "up": [
+       20
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      15
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    24,
+    7
+   ]
+  },
+  "mon.bristleboar": {
+   "image": "creatures/mon/mon.bristleboar.40bf1cdd.png",
+   "w": 56,
+   "h": 47,
+   "anchor": {
+    "x": 28,
+    "y": 46
+   },
+   "anims": {
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       22
+      ],
+      "left": [
+       1,
+       23
+      ],
+      "up": [
+       2,
+       24
+      ]
+     },
+     "fps": 2.5,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       3,
+       4,
+       5,
+       4
+      ],
+      "left": [
+       6,
+       7,
+       8,
+       7
+      ],
+      "up": [
+       9,
+       10,
+       11,
+       10
+      ]
+     },
+     "fps": 8,
+     "loop": true
+    },
+    "windup": {
+     "frames": {
+      "down": [
+       12,
+       25
+      ],
+      "left": [
+       13,
+       26
+      ],
+      "up": [
+       14,
+       27
+      ]
+     },
+     "fps": 9,
+     "loop": true
+    },
+    "attack": {
+     "frames": {
+      "down": [
+       15
+      ],
+      "left": [
+       16
+      ],
+      "up": [
+       17
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": {
+      "down": [
+       18
+      ],
+      "left": [
+       19
+      ],
+      "up": [
+       20
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      21
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    30,
+    8
+   ]
+  },
+  "mon.dummy": {
+   "image": "creatures/mon/mon.dummy.2aeb9a8b.png",
+   "w": 44,
+   "h": 48,
+   "anchor": {
+    "x": 22,
+    "y": 47
+   },
+   "anims": {
+    "idle": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": [
+      1,
+      2,
+      3,
+      4,
+      0
+     ],
+     "fps": 16,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    16,
+    5
+   ]
+  },
+  "mon.duskbat": {
+   "image": "creatures/mon/mon.duskbat.745312b1.png",
+   "w": 40,
+   "h": 32,
+   "anchor": {
+    "x": 20,
+    "y": 26
+   },
+   "anims": {
+    "idle": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 12,
+     "loop": true
+    },
+    "walk": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 14,
+     "loop": true
+    },
+    "windup": {
+     "frames": [
+      4,
+      5
+     ],
+     "fps": 8,
+     "loop": true
+    },
+    "attack": {
+     "frames": [
+      6,
+      7
+     ],
+     "fps": 6,
+     "loop": false
+    },
+    "hurt": {
+     "frames": [
+      8,
+      9
+     ],
+     "fps": 8,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      10,
+      11
+     ],
+     "fps": 5,
+     "loop": false
+    }
+   },
+   "shadow": [
+    16,
+    5
+   ]
+  },
+  "mon.greywolf": {
+   "image": "creatures/mon/mon.greywolf.13b472f1.png",
+   "w": 60,
+   "h": 48,
+   "anchor": {
+    "x": 30,
+    "y": 47
+   },
+   "anims": {
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       22
+      ],
+      "left": [
+       4,
+       23
+      ],
+      "up": [
+       8,
+       24
+      ]
+     },
+     "fps": 2.5,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       2,
+       3
+      ],
+      "left": [
+       5,
+       6,
+       7
+      ],
+      "up": [
+       9,
+       10,
+       11
+      ]
+     },
+     "fps": 9,
+     "loop": true
+    },
+    "windup": {
+     "frames": {
+      "down": [
+       12,
+       25
+      ],
+      "left": [
+       15,
+       26
+      ],
+      "up": [
+       18,
+       27
+      ]
+     },
+     "fps": 10,
+     "loop": true
+    },
+    "attack": {
+     "frames": {
+      "down": [
+       13
+      ],
+      "left": [
+       16
+      ],
+      "up": [
+       19
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": {
+      "down": [
+       14
+      ],
+      "left": [
+       17
+      ],
+      "up": [
+       20
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      21
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    30,
+    8
+   ]
+  },
+  "mon.mossling": {
+   "image": "creatures/mon/mon.mossling.8ae2460a.png",
+   "w": 38,
+   "h": 35,
+   "anchor": {
+    "x": 19,
+    "y": 34
+   },
+   "anims": {
+    "idle": {
+     "frames": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "fps": 4,
+     "loop": true
+    },
+    "walk": {
+     "frames": [
+      3,
+      7,
+      3,
+      6,
+      0,
+      2
+     ],
+     "fps": 7,
+     "loop": true
+    },
+    "windup": {
+     "frames": [
+      2,
+      4
+     ],
+     "fps": 8,
+     "loop": false
+    },
+    "attack": {
+     "frames": [
+      5
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": [
+      8,
+      9
+     ],
+     "fps": 8,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      10,
+      11
+     ],
+     "fps": 5,
+     "loop": false
+    }
+   },
+   "shadow": [
+    20,
+    6
+   ]
+  },
+  "mon.sporecap": {
+   "image": "creatures/mon/mon.sporecap.fd6d7fda.png",
+   "w": 46,
+   "h": 38,
+   "anchor": {
+    "x": 23,
+    "y": 37
+   },
+   "anims": {
+    "idle": {
+     "frames": [
+      0,
+      0,
+      0,
+      2
+     ],
+     "fps": 3,
+     "loop": true
+    },
+    "walk": {
+     "frames": [
+      1,
+      0,
+      3,
+      0
+     ],
+     "fps": 6,
+     "loop": true
+    },
+    "windup": {
+     "frames": [
+      4,
+      5
+     ],
+     "fps": 5,
+     "loop": false
+    },
+    "attack": {
+     "frames": [
+      6,
+      7
+     ],
+     "fps": 5,
+     "loop": false
+    },
+    "hurt": {
+     "frames": [
+      8,
+      9
+     ],
+     "fps": 8,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      10,
+      11
+     ],
+     "fps": 5,
+     "loop": false
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "mon.thornling": {
+   "image": "creatures/mon/mon.thornling.d6cfe35c.png",
+   "w": 32,
+   "h": 29,
+   "anchor": {
+    "x": 16,
+    "y": 28
+   },
+   "anims": {
+    "idle": {
+     "frames": [
+      0,
+      12
+     ],
+     "fps": 2.5,
+     "loop": true
+    },
+    "walk": {
+     "frames": [
+      2,
+      2,
+      3,
+      0,
+      1,
+      1
+     ],
+     "fps": 7,
+     "loop": true
+    },
+    "windup": {
+     "frames": [
+      4,
+      5
+     ],
+     "fps": 8,
+     "loop": true
+    },
+    "attack": {
+     "frames": [
+      6
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": [
+      8,
+      9
+     ],
+     "fps": 8,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      10,
+      11
+     ],
+     "fps": 5,
+     "loop": false
+    }
+   },
+   "shadow": [
+    16,
+    5
+   ]
+  },
+  "mon.thornmother": {
+   "image": "creatures/mon/mon.thornmother.9bdd92bf.png",
+   "w": 136,
+   "h": 107,
+   "anchor": {
+    "x": 68,
+    "y": 106
+   },
+   "anims": {
+    "idle": {
+     "frames": [
+      0,
+      1
+     ],
+     "fps": 2,
+     "loop": true
+    },
+    "walk": {
+     "frames": [
+      2,
+      11,
+      3,
+      11
+     ],
+     "fps": 6,
+     "loop": true
+    },
+    "windup": {
+     "frames": [
+      4,
+      12
+     ],
+     "fps": 12,
+     "loop": true
+    },
+    "attack": {
+     "frames": [
+      5
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": [
+      6
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      8,
+      9
+     ],
+     "fps": 3,
+     "loop": false
+    },
+    "special": {
+     "frames": [
+      7,
+      10
+     ],
+     "fps": 6,
+     "loop": true
+    }
+   },
+   "shadow": [
+    96,
+    22
+   ]
+  },
+  "mon.webspinner": {
+   "image": "creatures/mon/mon.webspinner.378b8c42.png",
+   "w": 48,
+   "h": 43,
+   "anchor": {
+    "x": 24,
+    "y": 42
+   },
+   "anims": {
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       14
+      ],
+      "left": [
+       4,
+       17
+      ],
+      "up": [
+       8,
+       20
+      ]
+     },
+     "fps": 2,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       5,
+       4,
+       6,
+       4
+      ],
+      "up": [
+       9,
+       8,
+       10,
+       8
+      ]
+     },
+     "fps": 12,
+     "loop": true
+    },
+    "windup": {
+     "frames": {
+      "down": [
+       3
+      ],
+      "left": [
+       7
+      ],
+      "up": [
+       11
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "attack": {
+     "frames": {
+      "down": [
+       12
+      ],
+      "left": [
+       15
+      ],
+      "up": [
+       18
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "hurt": {
+     "frames": {
+      "down": [
+       13
+      ],
+      "left": [
+       16
+      ],
+      "up": [
+       19
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    },
+    "dead": {
+     "frames": [
+      21,
+      22
+     ],
+     "fps": 4,
+     "loop": false
+    }
+   },
+   "shadow": [
+    28,
+    8
+   ]
+  },
+  "npc.bram": {
+   "image": "chars/npc/bram.6e5108f7.png",
+   "w": 40,
+   "h": 55,
+   "anchor": {
+    "x": 19,
+    "y": 54
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "npc.cato": {
+   "image": "chars/npc/cato.01d4d2e9.png",
+   "w": 35,
+   "h": 58,
+   "anchor": {
+    "x": 16,
+    "y": 57
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.dunn": {
+   "image": "chars/npc/dunn.2d9bb358.png",
+   "w": 37,
+   "h": 54,
+   "anchor": {
+    "x": 19,
+    "y": 53
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.hask": {
+   "image": "chars/npc/hask.27df6595.png",
+   "w": 42,
+   "h": 52,
+   "anchor": {
+    "x": 21,
+    "y": 51
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    20,
+    6
+   ]
+  },
+  "npc.hooded": {
+   "image": "chars/npc/hooded.4e1044b1.png",
+   "w": 30,
+   "h": 52,
+   "anchor": {
+    "x": 14,
+    "y": 51
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    20,
+    6
+   ]
+  },
+  "npc.lamb": {
+   "image": "chars/npc/lamb.78368a0e.png",
+   "w": 21,
+   "h": 21,
+   "anchor": {
+    "x": 9,
+    "y": 20
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       4
+      ],
+      "up": [
+       8
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       4,
+       7
+      ],
+      "up": [
+       8,
+       11
+      ]
+     },
+     "fps": 1.2,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       5,
+       4,
+       6,
+       4
+      ],
+      "up": [
+       9,
+       8,
+       10,
+       8
+      ]
+     },
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    16,
+    5
+   ]
+  },
+  "npc.lottie": {
+   "image": "chars/npc/lottie.a9564695.png",
+   "w": 37,
+   "h": 48,
+   "anchor": {
+    "x": 18,
+    "y": 47
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.maren": {
+   "image": "chars/npc/maren.104e97d3.png",
+   "w": 35,
+   "h": 49,
+   "anchor": {
+    "x": 15,
+    "y": 48
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.nessa": {
+   "image": "chars/npc/nessa.8af8d8de.png",
+   "w": 35,
+   "h": 43,
+   "anchor": {
+    "x": 17,
+    "y": 42
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    16,
+    5
+   ]
+  },
+  "npc.oren": {
+   "image": "chars/npc/oren.18330d54.png",
+   "w": 32,
+   "h": 47,
+   "anchor": {
+    "x": 16,
+    "y": 46
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.pell": {
+   "image": "chars/npc/pell.e2dc7785.png",
+   "w": 43,
+   "h": 49,
+   "anchor": {
+    "x": 19,
+    "y": 48
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.pip": {
+   "image": "chars/npc/pip.de984611.png",
+   "w": 36,
+   "h": 43,
+   "anchor": {
+    "x": 17,
+    "y": 42
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    14,
+    4
+   ]
+  },
+  "npc.rosa": {
+   "image": "chars/npc/rosa.4786e309.png",
+   "w": 35,
+   "h": 50,
+   "anchor": {
+    "x": 16,
+    "y": 49
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.sheepA": {
+   "image": "chars/npc/sheep.9074ebfc.png",
+   "w": 33,
+   "h": 28,
+   "anchor": {
+    "x": 16,
+    "y": 27
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       4
+      ],
+      "up": [
+       8
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       4,
+       7
+      ],
+      "up": [
+       8,
+       11
+      ]
+     },
+     "fps": 1.2,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       5,
+       4,
+       6,
+       4
+      ],
+      "up": [
+       9,
+       8,
+       10,
+       8
+      ]
+     },
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "npc.sheepB": {
+   "image": "chars/npc/sheep.9074ebfc.png",
+   "w": 33,
+   "h": 28,
+   "anchor": {
+    "x": 16,
+    "y": 27
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       4
+      ],
+      "up": [
+       8
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       4,
+       7
+      ],
+      "up": [
+       8,
+       11
+      ]
+     },
+     "fps": 1.2,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       5,
+       4,
+       6,
+       4
+      ],
+      "up": [
+       9,
+       8,
+       10,
+       8
+      ]
+     },
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "npc.sheepC": {
+   "image": "chars/npc/sheep.9074ebfc.png",
+   "w": 33,
+   "h": 28,
+   "anchor": {
+    "x": 16,
+    "y": 27
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       4
+      ],
+      "up": [
+       8
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       4,
+       7
+      ],
+      "up": [
+       8,
+       11
+      ]
+     },
+     "fps": 1.2,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       5,
+       4,
+       6,
+       4
+      ],
+      "up": [
+       9,
+       8,
+       10,
+       8
+      ]
+     },
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "npc.tilda": {
+   "image": "chars/npc/tilda.726a5f11.png",
+   "w": 28,
+   "h": 49,
+   "anchor": {
+    "x": 14,
+    "y": 48
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.villagerA": {
+   "image": "chars/npc/villagerA.0e0e0e64.png",
+   "w": 40,
+   "h": 52,
+   "anchor": {
+    "x": 19,
+    "y": 51
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.villagerB": {
+   "image": "chars/npc/villagerB.f1334b73.png",
+   "w": 31,
+   "h": 48,
+   "anchor": {
+    "x": 15,
+    "y": 47
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.villagerC": {
+   "image": "chars/npc/villagerC.fa117ad9.png",
+   "w": 48,
+   "h": 51,
+   "anchor": {
+    "x": 28,
+    "y": 50
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3
+      ],
+      "left": [
+       5,
+       8
+      ],
+      "up": [
+       10,
+       13
+      ]
+     },
+     "fps": 1.4,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       1,
+       0,
+       2,
+       0
+      ],
+      "left": [
+       6,
+       5,
+       7,
+       5
+      ],
+      "up": [
+       11,
+       10,
+       12,
+       10
+      ]
+     },
+     "fps": 7,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "npc.wellSpirit": {
+   "image": "chars/npc/wellSpirit.1c7fbfa3.png",
+   "w": 31,
+   "h": 50,
+   "anchor": {
+    "x": 16,
+    "y": 50
+   },
+   "anims": {
+    "stand": {
+     "frames": {
+      "down": [
+       0
+      ],
+      "left": [
+       5
+      ],
+      "up": [
+       10
+      ]
+     },
+     "fps": 0,
+     "loop": true
+    },
+    "idle": {
+     "frames": {
+      "down": [
+       0,
+       3,
+       2,
+       3
+      ],
+      "left": [
+       5,
+       8,
+       7,
+       8
+      ],
+      "up": [
+       10,
+       13,
+       12,
+       13
+      ]
+     },
+     "fps": 2.5,
+     "loop": true
+    },
+    "walk": {
+     "frames": {
+      "down": [
+       0,
+       1,
+       2,
+       1
+      ],
+      "left": [
+       5,
+       6,
+       7,
+       6
+      ],
+      "up": [
+       10,
+       11,
+       12,
+       11
+      ]
+     },
+     "fps": 6,
+     "loop": true
+    },
+    "talk": {
+     "frames": {
+      "down": [
+       4
+      ],
+      "left": [
+       9
+      ],
+      "up": [
+       14
+      ]
+     },
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ],
+   "light": {
+    "radius": 64,
+    "color": "#9fe8ff",
+    "flicker": false,
+    "dy": -26
+   }
+  },
+  "obj.chest": {
+   "image": "env/props/prop.chest.1cd1f664.png",
+   "w": 26,
+   "h": 29,
+   "anchor": {
+    "x": 13,
+    "y": 27
+   },
+   "anims": {
+    "closed": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "open": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "obj.gate.iron": {
+   "image": "env/props/gate.iron.07ae33f3.png",
+   "w": 36,
+   "h": 44,
+   "anchor": {
+    "x": 18,
+    "y": 43
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    28,
+    6
+   ]
+  },
+  "obj.gate.thorns": {
+   "image": "env/props/gate.thorns.62c67a2e.png",
+   "w": 32,
+   "h": 44,
+   "anchor": {
+    "x": 16,
+    "y": 42
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    30,
+    7
+   ]
+  },
+  "prop.anvil": {
+   "image": "env/props/prop.anvil.fd9ad7de.png",
+   "w": 40,
+   "h": 40,
+   "anchor": {
+    "x": 20,
+    "y": 38
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    30,
+    6
+   ]
+  },
+  "prop.banner": {
+   "image": "env/props/prop.banner.1a0d5085.png",
+   "w": 27,
+   "h": 44,
+   "anchor": {
+    "x": 13,
+    "y": 43
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.barrel": {
+   "image": "env/props/prop.barrel.f4353def.png",
+   "w": 25,
+   "h": 34,
+   "anchor": {
+    "x": 12,
+    "y": 32
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    20,
+    6
+   ]
+  },
+  "prop.bed": {
+   "image": "env/props/prop.bed.0731948d.png",
+   "w": 32,
+   "h": 53,
+   "anchor": {
+    "x": 16,
+    "y": 51
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    34,
+    6
+   ]
+  },
+  "prop.boat": {
+   "image": "env/props/prop.boat.decee734.png",
+   "w": 80,
+   "h": 53,
+   "anchor": {
+    "x": 40,
+    "y": 50
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.bones": {
+   "image": "env/props/prop.bones.3d3b6ef3.png",
+   "w": 25,
+   "h": 19,
+   "anchor": {
+    "x": 12,
+    "y": 18
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.bookcase": {
+   "image": "env/props/prop.bookcase.85feca3f.png",
+   "w": 65,
+   "h": 71,
+   "anchor": {
+    "x": 32,
+    "y": 69
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.boulder": {
+   "image": "env/props/prop.boulder.4ad4c964.png",
+   "w": 78,
+   "h": 66,
+   "anchor": {
+    "x": 39,
+    "y": 63
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    66,
+    14
+   ]
+  },
+  "prop.brazier": {
+   "image": "env/props/prop.brazier.ff45f5d5.png",
+   "w": 27,
+   "h": 39,
+   "anchor": {
+    "x": 13,
+    "y": 37
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ],
+   "light": {
+    "radius": 96,
+    "color": "#ff9d4a",
+    "flicker": true,
+    "dy": -24
+   }
+  },
+  "prop.bush": {
+   "image": "env/props/prop.bush.909af767.png",
+   "w": 38,
+   "h": 31,
+   "anchor": {
+    "x": 19,
+    "y": 29
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "cut": {
+     "frames": [
+      3
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    28,
+    7
+   ]
+  },
+  "prop.cart": {
+   "image": "env/props/prop.cart.7dd2081a.png",
+   "w": 70,
+   "h": 59,
+   "anchor": {
+    "x": 35,
+    "y": 57
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    62,
+    10
+   ]
+  },
+  "prop.chair": {
+   "image": "env/props/prop.chair.2bc115de.png",
+   "w": 20,
+   "h": 32,
+   "anchor": {
+    "x": 10,
+    "y": 30
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    16,
+    4
+   ]
+  },
+  "prop.chest": {
+   "image": "env/props/prop.chest.1cd1f664.png",
+   "w": 26,
+   "h": 29,
+   "anchor": {
+    "x": 13,
+    "y": 27
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "open": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "closed": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    22,
+    6
+   ]
+  },
+  "prop.counter": {
+   "image": "env/props/prop.counter.1d9d57eb.png",
+   "w": 129,
+   "h": 49,
+   "anchor": {
+    "x": 64,
+    "y": 47
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v3": {
+     "frames": [
+      3
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    124,
+    8
+   ]
+  },
+  "prop.crate": {
+   "image": "env/props/prop.crate.9d6cba13.png",
+   "w": 32,
+   "h": 31,
+   "anchor": {
+    "x": 16,
+    "y": 29
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "cut": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    26,
+    6
+   ]
+  },
+  "prop.deadTree": {
+   "image": "env/props/prop.deadTree.df502944.png",
+   "w": 80,
+   "h": 95,
+   "anchor": {
+    "x": 36,
+    "y": 92
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    40,
+    10
+   ]
+  },
+  "prop.dock": {
+   "image": "env/props/prop.dock.237f2a26.png",
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 31
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.fence": {
+   "image": "env/props/prop.fence.ceb1cb0a.png",
+   "w": 32,
+   "h": 27,
+   "anchor": {
+    "x": 16,
+    "y": 26
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.fenceV": {
+   "image": "env/props/prop.fenceV.86c69616.png",
+   "w": 10,
+   "h": 40,
+   "anchor": {
+    "x": 5,
+    "y": 37
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.flowers": {
+   "image": "env/props/prop.flowers.e77c895a.png",
+   "w": 32,
+   "h": 20,
+   "anchor": {
+    "x": 16,
+    "y": 18
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v3": {
+     "frames": [
+      3
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.fountain": {
+   "image": "env/props/prop.fountain.15bfa7c5.png",
+   "w": 105,
+   "h": 104,
+   "anchor": {
+    "x": 52,
+    "y": 100
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    96,
+    14
+   ]
+  },
+  "prop.grass": {
+   "image": "env/props/prop.grass.49433c9f.png",
+   "w": 29,
+   "h": 30,
+   "anchor": {
+    "x": 14,
+    "y": 29
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "cut": {
+     "frames": [
+      3
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.gravestone": {
+   "image": "env/props/prop.gravestone.5a3718c5.png",
+   "w": 29,
+   "h": 35,
+   "anchor": {
+    "x": 14,
+    "y": 33
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    22,
+    5
+   ]
+  },
+  "prop.hall": {
+   "image": "env/buildings/prop.hall.b3c18412.png",
+   "w": 233,
+   "h": 156,
+   "anchor": {
+    "x": 117,
+    "y": 148
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    224,
+    20
+   ]
+  },
+  "prop.hay": {
+   "image": "env/props/prop.hay.06aa4e81.png",
+   "w": 40,
+   "h": 36,
+   "anchor": {
+    "x": 20,
+    "y": 34
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    38,
+    8
+   ]
+  },
+  "prop.hearth": {
+   "image": "env/props/prop.hearth.a283fd78.png",
+   "w": 53,
+   "h": 72,
+   "anchor": {
+    "x": 26,
+    "y": 70
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0,
+      2,
+      3,
+      4
+     ],
+     "fps": 8,
+     "loop": true
+    },
+    "v1": {
+     "frames": [
+      1,
+      5,
+      6,
+      7
+     ],
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ],
+   "light": {
+    "radius": 120,
+    "color": "#ff9a4a",
+    "flicker": true,
+    "dy": -20
+   }
+  },
+  "prop.house": {
+   "image": "env/buildings/prop.house.47a4dc90.png",
+   "w": 138,
+   "h": 156,
+   "anchor": {
+    "x": 69,
+    "y": 145
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v3": {
+     "frames": [
+      3
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    128,
+    16
+   ]
+  },
+  "prop.inn": {
+   "image": "env/buildings/prop.inn.43703f92.png",
+   "w": 200,
+   "h": 161,
+   "anchor": {
+    "x": 99,
+    "y": 152
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    192,
+    18
+   ]
+  },
+  "prop.lamp": {
+   "image": "env/props/prop.lamp.111b1a1b.png",
+   "w": 17,
+   "h": 58,
+   "anchor": {
+    "x": 8,
+    "y": 56
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "lit": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    10,
+    4
+   ],
+   "light": {
+    "radius": 72,
+    "color": "#ffc978",
+    "flicker": true,
+    "dy": -44
+   }
+  },
+  "prop.lever": {
+   "image": "env/props/prop.lever.52c65a7a.png",
+   "w": 22,
+   "h": 34,
+   "anchor": {
+    "x": 11,
+    "y": 32
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "on": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "cut": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    14,
+    4
+   ]
+  },
+  "prop.lilypad": {
+   "image": "env/props/prop.lilypad.7f1b5d6c.png",
+   "w": 23,
+   "h": 12,
+   "anchor": {
+    "x": 11,
+    "y": 7
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.log": {
+   "image": "env/props/prop.log.218a56c5.png",
+   "w": 72,
+   "h": 36,
+   "anchor": {
+    "x": 36,
+    "y": 34
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    58,
+    8
+   ]
+  },
+  "prop.mushroom": {
+   "image": "env/props/prop.mushroom.b77faa48.png",
+   "w": 23,
+   "h": 23,
+   "anchor": {
+    "x": 11,
+    "y": 21
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    14,
+    4
+   ]
+  },
+  "prop.pine": {
+   "image": "env/props/prop.pine.dd09628f.png",
+   "w": 53,
+   "h": 100,
+   "anchor": {
+    "x": 26,
+    "y": 98
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    40,
+    11
+   ]
+  },
+  "prop.pot": {
+   "image": "env/props/prop.pot.862a61f1.png",
+   "w": 26,
+   "h": 25,
+   "anchor": {
+    "x": 13,
+    "y": 23
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "cut": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    16,
+    5
+   ]
+  },
+  "prop.reeds": {
+   "image": "env/props/prop.reeds.031516fe.png",
+   "w": 29,
+   "h": 33,
+   "anchor": {
+    "x": 14,
+    "y": 32
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "cut": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.rock": {
+   "image": "env/props/prop.rock.32f6e7aa.png",
+   "w": 42,
+   "h": 33,
+   "anchor": {
+    "x": 21,
+    "y": 31
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    34,
+    8
+   ]
+  },
+  "prop.rug": {
+   "image": "env/props/prop.rug.446115a4.png",
+   "w": 96,
+   "h": 64,
+   "anchor": {
+    "x": 48,
+    "y": 63
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.shelf": {
+   "image": "env/props/prop.shelf.e2618ac4.png",
+   "w": 65,
+   "h": 70,
+   "anchor": {
+    "x": 32,
+    "y": 68
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.shopHouse": {
+   "image": "env/buildings/prop.shopHouse.3dbf7b30.png",
+   "w": 137,
+   "h": 151,
+   "anchor": {
+    "x": 68,
+    "y": 145
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    128,
+    16
+   ]
+  },
+  "prop.sign": {
+   "image": "env/props/prop.sign.a508cdb5.png",
+   "w": 29,
+   "h": 30,
+   "anchor": {
+    "x": 14,
+    "y": 28
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    18,
+    5
+   ]
+  },
+  "prop.smithyHouse": {
+   "image": "env/buildings/prop.smithyHouse.bd8a4a1a.png",
+   "w": 169,
+   "h": 119,
+   "anchor": {
+    "x": 84,
+    "y": 116
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    160,
+    16
+   ]
+  },
+  "prop.stairsDown": {
+   "image": "env/props/prop.stairsDown.d687f844.png",
+   "w": 34,
+   "h": 34,
+   "anchor": {
+    "x": 17,
+    "y": 33
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.stairsUp": {
+   "image": "env/props/prop.stairsUp.42a62ed0.png",
+   "w": 32,
+   "h": 40,
+   "anchor": {
+    "x": 16,
+    "y": 39
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.statue": {
+   "image": "env/props/prop.statue.a324c012.png",
+   "w": 45,
+   "h": 94,
+   "anchor": {
+    "x": 22,
+    "y": 92
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    36,
+    8
+   ]
+  },
+  "prop.stump": {
+   "image": "env/props/prop.stump.24728195.png",
+   "w": 34,
+   "h": 36,
+   "anchor": {
+    "x": 17,
+    "y": 33
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    26,
+    6
+   ]
+  },
+  "prop.table": {
+   "image": "env/props/prop.table.b0a57a5c.png",
+   "w": 50,
+   "h": 37,
+   "anchor": {
+    "x": 25,
+    "y": 35
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    56,
+    8
+   ]
+  },
+  "prop.tavernHouse": {
+   "image": "env/buildings/prop.tavernHouse.2d7b2ece.png",
+   "w": 168,
+   "h": 134,
+   "anchor": {
+    "x": 84,
+    "y": 130
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    160,
+    16
+   ]
+  },
+  "prop.torch": {
+   "image": "env/props/prop.torch.3d700edf.png",
+   "w": 8,
+   "h": 29,
+   "anchor": {
+    "x": 4,
+    "y": 28
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fps": 8,
+     "loop": true
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ],
+   "light": {
+    "radius": 84,
+    "color": "#ffb45a",
+    "flicker": true,
+    "dy": -20
+   }
+  },
+  "prop.tree": {
+   "image": "env/props/prop.tree.69b067d6.png",
+   "w": 83,
+   "h": 97,
+   "anchor": {
+    "x": 40,
+    "y": 94
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v2": {
+     "frames": [
+      2
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    58,
+    14
+   ]
+  },
+  "prop.wardstone": {
+   "image": "env/props/prop.wardstone.1c601a1f.png",
+   "w": 67,
+   "h": 105,
+   "anchor": {
+    "x": 33,
+    "y": 101
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    54,
+    12
+   ],
+   "canopyAbove": 60
+  },
+  "prop.weaponRack": {
+   "image": "env/props/prop.weaponRack.2947313e.png",
+   "w": 53,
+   "h": 49,
+   "anchor": {
+    "x": 26,
+    "y": 47
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    },
+    "v1": {
+     "frames": [
+      1
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    40,
+    6
+   ]
+  },
+  "prop.web": {
+   "image": "env/props/prop.web.89e43613.png",
+   "w": 45,
+   "h": 44,
+   "anchor": {
+    "x": 22,
+    "y": 23
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  },
+  "prop.well": {
+   "image": "env/props/prop.well.6f89aea0.png",
+   "w": 45,
+   "h": 62,
+   "anchor": {
+    "x": 22,
+    "y": 59
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    46,
+    10
+   ]
+  },
+  "prop.window": {
+   "image": "env/props/prop.window.6ef8f736.png",
+   "w": 29,
+   "h": 45,
+   "anchor": {
+    "x": 14,
+    "y": 44
+   },
+   "anims": {
+    "v0": {
+     "frames": [
+      0
+     ],
+     "fps": 0,
+     "loop": false
+    }
+   },
+   "shadow": [
+    0,
+    0
+   ]
+  }
+ },
+ "ground": {
+  "#": {
+   "image": "env/ground/ground.wall-rock-top.624e5122.png",
+   "variants": 3
+  },
+  "#dun": {
+   "image": "env/ground/ground.wall-dungeon-top.f18d578a.png",
+   "variants": 2
+  },
+  "#dunface": {
+   "image": "env/ground/ground.wall-dungeon-face.9cc67e9b.png",
+   "variants": 1
+  },
+  "#face": {
+   "image": "env/ground/ground.wall-rock-face.eca169bc.png",
+   "variants": 1
+  },
+  "#in": {
+   "image": "env/ground/ground.wall-interior-top.b9f8fc3f.png",
+   "variants": 2
+  },
+  "#inface": {
+   "image": "env/ground/ground.wall-interior-face.f62a466b.png",
+   "variants": 1
+  },
+  "G": {
+   "image": "env/ground/ground.grass-dark.c8ed5048.png",
+   "variants": 4
+  },
+  "H": {
+   "image": "env/ground/ground.house-base.cae376b1.png",
+   "variants": 1
+  },
+  "W": {
+   "image": "env/ground/ground.water-deep.aaf3b401.png",
+   "variants": 4
+  },
+  "b": {
+   "image": "env/ground/ground.bridge.1a976c1e.png",
+   "variants": 2
+  },
+  "c": {
+   "image": "env/ground/ground.cobble.5006e423.png",
+   "variants": 4
+  },
+  "cliff": {
+   "image": "env/ground/ground.cliff-rock.ec675cf6.png",
+   "variants": 1
+  },
+  "cliff.dun": {
+   "image": "env/ground/ground.cliff-dungeon.b0f91db2.png",
+   "variants": 1
+  },
+  "cliff.town": {
+   "image": "env/ground/ground.cliff-town.67956d5d.png",
+   "variants": 1
+  },
+  "d": {
+   "image": "env/ground/ground.dirt.97906213.png",
+   "variants": 4
+  },
+  "f": {
+   "image": "env/ground/ground.floor-wood.6665fac1.png",
+   "variants": 4
+  },
+  "g": {
+   "image": "env/ground/ground.grass.5758c671.png",
+   "variants": 4
+  },
+  "k": {
+   "image": "env/ground/ground.cave.cbb48b6b.png",
+   "variants": 4
+  },
+  "m": {
+   "image": "env/ground/ground.mud.2d38de5f.png",
+   "variants": 4
+  },
+  "s": {
+   "image": "env/ground/ground.sand.e0c634b9.png",
+   "variants": 4
+  },
+  "t": {
+   "image": "env/ground/ground.flagstone.d4a81c21.png",
+   "variants": 4
+  },
+  "w": {
+   "image": "env/ground/ground.water-shallow.f8532737.png",
+   "variants": 4
+  },
+  "x": {
+   "image": "env/ground/ground.void.b9df6dd7.png",
+   "variants": 1
+  }
+ },
+ "icons": {
+  "icon.barrowKey": "creatures/icons/icon.barrowKey.0b2ae5c5.png",
+  "icon.boarBoots1": "creatures/icons/icon.boarBoots1.29f37050.png",
+  "icon.boarBoots2": "creatures/icons/icon.boarBoots2.ba50162d.png",
+  "icon.boarBoots3": "creatures/icons/icon.boarBoots3.5faa7776.png",
+  "icon.boarCap1": "creatures/icons/icon.boarCap1.25d753e3.png",
+  "icon.boarCap2": "creatures/icons/icon.boarCap2.62133e5e.png",
+  "icon.boarCap3": "creatures/icons/icon.boarCap3.8abc5c50.png",
+  "icon.boarVest1": "creatures/icons/icon.boarVest1.453f628a.png",
+  "icon.boarVest2": "creatures/icons/icon.boarVest2.61e72d4a.png",
+  "icon.boarVest3": "creatures/icons/icon.boarVest3.1ef5da09.png",
+  "icon.boarhideHelm": "creatures/icons/icon.boarhideHelm.50744bd1.png",
+  "icon.bronzeGreaves1": "creatures/icons/icon.bronzeGreaves1.677cc800.png",
+  "icon.bronzeHelm1": "creatures/icons/icon.bronzeHelm1.b4a4149f.png",
+  "icon.bronzeMail1": "creatures/icons/icon.bronzeMail1.6b3520c3.png",
+  "icon.clothHood": "creatures/icons/icon.clothHood.7ccb9a57.png",
+  "icon.clothShoes": "creatures/icons/icon.clothShoes.6584de4b.png",
+  "icon.clothTunic": "creatures/icons/icon.clothTunic.224a55db.png",
+  "icon.elixir": "creatures/icons/icon.elixir.2d9f99cd.png",
+  "icon.emberBlade": "creatures/icons/icon.emberBlade.e77761b7.png",
+  "icon.feverroot": "creatures/icons/icon.feverroot.cf741a39.png",
+  "icon.fishingRod": "creatures/icons/icon.fishingRod.f55cd2c1.png",
+  "icon.fortune": "creatures/icons/icon.fortune.95ab2c22.png",
+  "icon.fury": "creatures/icons/icon.fury.81622cb7.png",
+  "icon.gold": "creatures/icons/icon.gold.0e5fd675.png",
+  "icon.herb": "creatures/icons/icon.herb.c942679c.png",
+  "icon.ironSword": "creatures/icons/icon.ironSword.0abc80a2.png",
+  "icon.lambsBell": "creatures/icons/icon.lambsBell.7986bed2.png",
+  "icon.leatherBoots1": "creatures/icons/icon.leatherBoots1.efc13678.png",
+  "icon.leatherBoots2": "creatures/icons/icon.leatherBoots2.405c3e06.png",
+  "icon.leatherBoots3": "creatures/icons/icon.leatherBoots3.cd6275cc.png",
+  "icon.leatherCap1": "creatures/icons/icon.leatherCap1.d67e5e56.png",
+  "icon.leatherCap2": "creatures/icons/icon.leatherCap2.c513f1b0.png",
+  "icon.leatherCap3": "creatures/icons/icon.leatherCap3.f344aaed.png",
+  "icon.leatherVest1": "creatures/icons/icon.leatherVest1.b1d0f6c0.png",
+  "icon.leatherVest2": "creatures/icons/icon.leatherVest2.52c648c3.png",
+  "icon.leatherVest3": "creatures/icons/icon.leatherVest3.180effd5.png",
+  "icon.loaves": "creatures/icons/icon.loaves.c59fe057.png",
+  "icon.manaDraught": "creatures/icons/icon.manaDraught.8816f3b3.png",
+  "icon.quickstep": "creatures/icons/icon.quickstep.3802b5ce.png",
+  "icon.silverRing": "creatures/icons/icon.silverRing.8a4ec20d.png",
+  "icon.slot.body": "creatures/icons/icon.slot.body.c31408c6.png",
+  "icon.slot.boots": "creatures/icons/icon.slot.boots.adaa22e6.png",
+  "icon.slot.charm": "creatures/icons/icon.slot.charm.7ff7f249.png",
+  "icon.slot.head": "creatures/icons/icon.slot.head.65a09d1e.png",
+  "icon.slot.weapon": "creatures/icons/icon.slot.weapon.ff196202.png",
+  "icon.spell.emberBolt": "creatures/icons/icon.spell.emberBolt.8fb8272b.png",
+  "icon.spell.frostRing": "creatures/icons/icon.spell.frostRing.e217c36a.png",
+  "icon.spell.thornbreak": "creatures/icons/icon.spell.thornbreak.324b2acd.png",
+  "icon.stoneskin": "creatures/icons/icon.stoneskin.22b6fe8c.png",
+  "icon.tonic": "creatures/icons/icon.tonic.ff833749.png",
+  "icon.travelersKnot": "creatures/icons/icon.travelersKnot.f06b0654.png",
+  "icon.ui.bag": "creatures/icons/icon.ui.bag.3fc9c537.png",
+  "icon.ui.dodge": "creatures/icons/icon.ui.dodge.02437c41.png",
+  "icon.ui.heart": "creatures/icons/icon.ui.heart.ea79477d.png",
+  "icon.ui.magic": "creatures/icons/icon.ui.magic.a581e7a7.png",
+  "icon.ui.map": "creatures/icons/icon.ui.map.ede3d876.png",
+  "icon.ui.pause": "creatures/icons/icon.ui.pause.37a3e241.png",
+  "icon.ui.quest": "creatures/icons/icon.ui.quest.699acf74.png",
+  "icon.ui.star": "creatures/icons/icon.ui.star.f35c5fb2.png",
+  "icon.ui.status": "creatures/icons/icon.ui.status.4c237887.png",
+  "icon.ui.sword": "creatures/icons/icon.ui.sword.8d027c2d.png",
+  "icon.ui.warning": "creatures/icons/icon.ui.warning.3e0e4bce.png",
+  "icon.wolfFang": "creatures/icons/icon.wolfFang.29f0cb84.png",
+  "icon.wornBlade": "creatures/icons/icon.wornBlade.caf609f5.png"
+ },
+ "portraits": {
+  "portrait.bram": "chars/portraits/portrait.bram.f2a09f3d.png",
+  "portrait.cato": "chars/portraits/portrait.cato.5adcee23.png",
+  "portrait.dunn": "chars/portraits/portrait.dunn.f2d79a63.png",
+  "portrait.hask": "chars/portraits/portrait.hask.ce49959e.png",
+  "portrait.hero": "chars/portraits/portrait.hero.b311c195.png",
+  "portrait.hooded": "chars/portraits/portrait.hooded.7c604ba4.png",
+  "portrait.lamb": "chars/portraits/portrait.lamb.9d96eb22.png",
+  "portrait.lottie": "chars/portraits/portrait.lottie.bf216611.png",
+  "portrait.maren": "chars/portraits/portrait.maren.f6ba4214.png",
+  "portrait.nessa": "chars/portraits/portrait.nessa.107409ac.png",
+  "portrait.oren": "chars/portraits/portrait.oren.9af5b0fa.png",
+  "portrait.pell": "chars/portraits/portrait.pell.6f769ef7.png",
+  "portrait.pip": "chars/portraits/portrait.pip.a7a4babf.png",
+  "portrait.rosa": "chars/portraits/portrait.rosa.6951f12c.png",
+  "portrait.sheepA": "chars/portraits/portrait.sheepA.de889196.png",
+  "portrait.sheepB": "chars/portraits/portrait.sheepB.9ca988b1.png",
+  "portrait.sheepC": "chars/portraits/portrait.sheepC.66d75244.png",
+  "portrait.tilda": "chars/portraits/portrait.tilda.7b768976.png",
+  "portrait.villagerA": "chars/portraits/portrait.villagerA.7fe1b0ea.png",
+  "portrait.villagerB": "chars/portraits/portrait.villagerB.0e46e90f.png",
+  "portrait.villagerC": "chars/portraits/portrait.villagerC.0fb19963.png",
+  "portrait.wellSpirit": "chars/portraits/portrait.wellSpirit.0ab4a892.png"
+ }
+}

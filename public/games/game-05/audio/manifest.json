@@ -1,0 +1,482 @@
+{
+ "music": {
+  "title": {
+   "src": "music/title.77f8586c.m4a",
+   "loopStart": 8.405604,
+   "loopEnd": 72.468021,
+   "gain": 0.9
+  },
+  "village": {
+   "src": "music/village.e7ef0135.m4a",
+   "loopStart": 5.154792,
+   "loopEnd": 77.454854,
+   "gain": 0.85
+  },
+  "villageNight": {
+   "src": "music/villageNight.b7ee3ab0.m4a",
+   "loopStart": 6.362292,
+   "loopEnd": 78.149333,
+   "gain": 0.75
+  },
+  "interior": {
+   "src": "music/interior.eccb2bab.m4a",
+   "loopStart": 16.486208,
+   "loopEnd": 80.870583,
+   "gain": 0.8
+  },
+  "field": {
+   "src": "music/field.af3dbd3a.m4a",
+   "loopStart": 9.427292,
+   "loopEnd": 81.718063,
+   "gain": 0.85
+  },
+  "forest": {
+   "src": "music/forest.8c717257.m4a",
+   "loopStart": 8.9165,
+   "loopEnd": 74.39875,
+   "gain": 0.85
+  },
+  "dungeon": {
+   "src": "music/dungeon.6bf9c75a.m4a",
+   "loopStart": 9.6595,
+   "loopEnd": 74.540833,
+   "gain": 0.85
+  },
+  "boss": {
+   "src": "music/boss.3cf492a1.m4a",
+   "loopStart": 10.727604,
+   "loopEnd": 75.145771,
+   "gain": 0.95
+  }
+ },
+ "sfx": {
+  "swing1": {
+   "srcs": [
+    "sfx/swing1-1.f05bf3ac.m4a",
+    "sfx/swing1-2.50143bc0.m4a",
+    "sfx/swing1-3.dcb83cb1.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.08
+  },
+  "swing2": {
+   "srcs": [
+    "sfx/swing2-1.a5701b9b.m4a",
+    "sfx/swing2-2.80b16bf8.m4a",
+    "sfx/swing2-3.1dc5f8b1.m4a"
+   ],
+   "gain": 0.72,
+   "pitchVar": 0.08
+  },
+  "swing3": {
+   "srcs": [
+    "sfx/swing3-1.560cb955.m4a",
+    "sfx/swing3-2.8916a64b.m4a"
+   ],
+   "gain": 0.78,
+   "pitchVar": 0.06
+  },
+  "spin": {
+   "srcs": [
+    "sfx/spin.687832c4.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.05
+  },
+  "hit": {
+   "srcs": [
+    "sfx/hit-1.3d38a53c.m4a",
+    "sfx/hit-2.86031851.m4a",
+    "sfx/hit-3.d029842f.m4a"
+   ],
+   "gain": 0.9,
+   "pitchVar": 0.08
+  },
+  "hitCrit": {
+   "srcs": [
+    "sfx/hitCrit.1eb9c814.m4a"
+   ],
+   "gain": 1.0,
+   "pitchVar": 0.04
+  },
+  "hitHero": {
+   "srcs": [
+    "sfx/hitHero.a3f2e37c.m4a"
+   ],
+   "gain": 0.9,
+   "pitchVar": 0.08
+  },
+  "miss": {
+   "srcs": [
+    "sfx/miss.42b40a0b.m4a"
+   ],
+   "gain": 0.55,
+   "pitchVar": 0.1
+  },
+  "cutGrass": {
+   "srcs": [
+    "sfx/cutGrass-1.8bf2d885.m4a",
+    "sfx/cutGrass-2.e70b3938.m4a"
+   ],
+   "gain": 0.6,
+   "pitchVar": 0.1
+  },
+  "cutBush": {
+   "srcs": [
+    "sfx/cutBush.db8ae891.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.08
+  },
+  "potBreak": {
+   "srcs": [
+    "sfx/potBreak.c56973d4.m4a"
+   ],
+   "gain": 0.75,
+   "pitchVar": 0.08
+  },
+  "coin": {
+   "srcs": [
+    "sfx/coin-1.fef5048c.m4a",
+    "sfx/coin-2.582a7f37.m4a"
+   ],
+   "gain": 0.5,
+   "pitchVar": 0.04
+  },
+  "pickup": {
+   "srcs": [
+    "sfx/pickup.aaca5933.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.03
+  },
+  "chestOpen": {
+   "srcs": [
+    "sfx/chestOpen.7f25ed80.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.02
+  },
+  "heal": {
+   "srcs": [
+    "sfx/heal.31fe8c76.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.0
+  },
+  "cast.ember": {
+   "srcs": [
+    "sfx/cast-ember.1140ea07.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.05
+  },
+  "cast.frost": {
+   "srcs": [
+    "sfx/cast-frost.ee6ea103.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.04
+  },
+  "cast.thorn": {
+   "srcs": [
+    "sfx/cast-thorn.5069f565.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.05
+  },
+  "impact": {
+   "srcs": [
+    "sfx/impact.c3144fa9.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.08
+  },
+  "dodge": {
+   "srcs": [
+    "sfx/dodge.a156c3ba.m4a"
+   ],
+   "gain": 0.6,
+   "pitchVar": 0.08
+  },
+  "levelUp": {
+   "srcs": [
+    "sfx/levelUp.7274244d.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.0
+  },
+  "unlock": {
+   "srcs": [
+    "sfx/unlock.e9705b8a.m4a"
+   ],
+   "gain": 0.75,
+   "pitchVar": 0.0
+  },
+  "questStart": {
+   "srcs": [
+    "sfx/questStart.1c66c4ba.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.0
+  },
+  "questDone": {
+   "srcs": [
+    "sfx/questDone.a271de79.m4a"
+   ],
+   "gain": 0.85,
+   "pitchVar": 0.0
+  },
+  "door": {
+   "srcs": [
+    "sfx/door.d69471c6.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.04
+  },
+  "stairs": {
+   "srcs": [
+    "sfx/stairs.b9cdd741.m4a"
+   ],
+   "gain": 1.0,
+   "pitchVar": 0.03
+  },
+  "gateOpen": {
+   "srcs": [
+    "sfx/gateOpen.3299969b.m4a"
+   ],
+   "gain": 0.85,
+   "pitchVar": 0.02
+  },
+  "lever": {
+   "srcs": [
+    "sfx/lever.8dc9e397.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.03
+  },
+  "ui.move": {
+   "srcs": [
+    "sfx/ui-move.0f14e56b.m4a"
+   ],
+   "gain": 0.4,
+   "pitchVar": 0.0
+  },
+  "ui.ok": {
+   "srcs": [
+    "sfx/ui-ok.6d4c2dbf.m4a"
+   ],
+   "gain": 0.55,
+   "pitchVar": 0.0
+  },
+  "ui.back": {
+   "srcs": [
+    "sfx/ui-back.e65a2c0c.m4a"
+   ],
+   "gain": 0.5,
+   "pitchVar": 0.0
+  },
+  "ui.deny": {
+   "srcs": [
+    "sfx/ui-deny.d43eed46.m4a"
+   ],
+   "gain": 0.55,
+   "pitchVar": 0.0
+  },
+  "buy": {
+   "srcs": [
+    "sfx/buy.aa19f0eb.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.03
+  },
+  "equip": {
+   "srcs": [
+    "sfx/equip.6b30e466.m4a"
+   ],
+   "gain": 0.95,
+   "pitchVar": 0.04
+  },
+  "die.small": {
+   "srcs": [
+    "sfx/die-small.ecf9d749.m4a"
+   ],
+   "gain": 0.75,
+   "pitchVar": 0.1
+  },
+  "die.big": {
+   "srcs": [
+    "sfx/die-big.df39b3dd.m4a"
+   ],
+   "gain": 0.9,
+   "pitchVar": 0.05
+  },
+  "boss.roar": {
+   "srcs": [
+    "sfx/boss-roar.772f7561.m4a"
+   ],
+   "gain": 1.0,
+   "pitchVar": 0.03
+  },
+  "boss.slam": {
+   "srcs": [
+    "sfx/boss-slam.752c4cf8.m4a"
+   ],
+   "gain": 1.0,
+   "pitchVar": 0.04
+  },
+  "wolf.howl": {
+   "srcs": [
+    "sfx/wolf-howl.1cc356d6.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.06
+  },
+  "boar.charge": {
+   "srcs": [
+    "sfx/boar-charge.d87a86cb.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.06
+  },
+  "slime.hop": {
+   "srcs": [
+    "sfx/slime-hop-1.eed6a30f.m4a",
+    "sfx/slime-hop-2.2aa147eb.m4a"
+   ],
+   "gain": 0.45,
+   "pitchVar": 0.12
+  },
+  "bat.flap": {
+   "srcs": [
+    "sfx/bat-flap.d60e137d.m4a"
+   ],
+   "gain": 0.6,
+   "pitchVar": 0.1
+  },
+  "web.spit": {
+   "srcs": [
+    "sfx/web-spit.46151339.m4a"
+   ],
+   "gain": 0.7,
+   "pitchVar": 0.08
+  },
+  "spore.puff": {
+   "srcs": [
+    "sfx/spore-puff.de3749a8.m4a"
+   ],
+   "gain": 0.6,
+   "pitchVar": 0.08
+  },
+  "guard.block": {
+   "srcs": [
+    "sfx/guard-block.32a53488.m4a"
+   ],
+   "gain": 0.9,
+   "pitchVar": 0.05
+  },
+  "step.grass": {
+   "srcs": [
+    "sfx/step-grass-1.367dfbd2.m4a",
+    "sfx/step-grass-2.075b0ec2.m4a",
+    "sfx/step-grass-3.a6d3a1a5.m4a"
+   ],
+   "gain": 0.3,
+   "pitchVar": 0.1
+  },
+  "step.stone": {
+   "srcs": [
+    "sfx/step-stone-1.9f375ddd.m4a",
+    "sfx/step-stone-2.732899eb.m4a",
+    "sfx/step-stone-3.00f2f4d6.m4a"
+   ],
+   "gain": 0.45,
+   "pitchVar": 0.1
+  },
+  "step.wood": {
+   "srcs": [
+    "sfx/step-wood-1.8956b41a.m4a",
+    "sfx/step-wood-2.3e427d21.m4a",
+    "sfx/step-wood-3.e65db1f6.m4a"
+   ],
+   "gain": 0.3,
+   "pitchVar": 0.1
+  },
+  "step.dirt": {
+   "srcs": [
+    "sfx/step-dirt-1.fe546af6.m4a",
+    "sfx/step-dirt-2.a087b42c.m4a",
+    "sfx/step-dirt-3.e7b3e9c8.m4a"
+   ],
+   "gain": 0.45,
+   "pitchVar": 0.1
+  },
+  "step.water": {
+   "srcs": [
+    "sfx/step-water-1.855b9956.m4a",
+    "sfx/step-water-2.b7abd18a.m4a",
+    "sfx/step-water-3.f1a329af.m4a"
+   ],
+   "gain": 0.32,
+   "pitchVar": 0.1
+  },
+  "step.cave": {
+   "srcs": [
+    "sfx/step-cave-1.3ac7ed59.m4a",
+    "sfx/step-cave-2.9ec608d5.m4a",
+    "sfx/step-cave-3.a06b7d2a.m4a"
+   ],
+   "gain": 0.45,
+   "pitchVar": 0.1
+  },
+  "rest": {
+   "srcs": [
+    "sfx/rest.3bab7bbc.m4a"
+   ],
+   "gain": 0.8,
+   "pitchVar": 0.0
+  },
+  "text.blip": {
+   "srcs": [
+    "sfx/text-blip.bf6d6939.m4a"
+   ],
+   "gain": 0.25,
+   "pitchVar": 0.05
+  },
+  "sting.victory": {
+   "srcs": [
+    "sfx/sting-victory.475be8b3.m4a"
+   ],
+   "gain": 0.9,
+   "pitchVar": 0.0
+  },
+  "sting.levelUp": {
+   "srcs": [
+    "sfx/sting-levelUp.c33fe51e.m4a"
+   ],
+   "gain": 0.9,
+   "pitchVar": 0.0
+  },
+  "sting.gameOver": {
+   "srcs": [
+    "sfx/sting-gameOver.8c10d5d3.m4a"
+   ],
+   "gain": 0.85,
+   "pitchVar": 0.0
+  },
+  "sting.chapterClear": {
+   "srcs": [
+    "sfx/sting-chapterClear.950185b5.m4a"
+   ],
+   "gain": 0.95,
+   "pitchVar": 0.0
+  },
+  "sting.item": {
+   "srcs": [
+    "sfx/sting-item.8cf987e8.m4a"
+   ],
+   "gain": 0.85,
+   "pitchVar": 0.0
+  }
+ }
+}
